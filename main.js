@@ -5,7 +5,7 @@ const activitys = [];
 const notes = [];
 const approvedSpan = '<span class="resultado aprovado">Aprovado</span>';
 const disapprovedSpan = '<span class="resultado reprovado">Reprovado</span>';
-const minNote = parseFloat(prompt("Digite a nota mínima:"));
+const minNote = parseFloat(prompt("Digite a nota mínima para a aprovação:"));
 
 let lines = '';
 
