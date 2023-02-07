@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.944);
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+    
+}
+
+form input {
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.503);
+    outline: none;
+}
+
+
+form button {
+    background-color: rgba(9, 3, 199, 0.721);
+    color: rgb(255, 255, 255) ;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+form button:hover {
+    background-color:rgba(10, 3, 199, 0.534) ;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.503);
+
+}
+
+table td img {
+    height: 30px;
+
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color: green;
+}
+
+.reprovado {
+    background-color: red;
+}
