@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +11,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <header>
             <img src="./assets/logo.png" alt="capelo e diploma">
             <h1>Calculadora de Médias</h1>
         </header>
-        <form>
-            <input type="text" required placeholder="Nome da Atividade" />
-            <input type="number" required placeholder="Nota da Atividade" />
+        <form id="main-form">
+            <input type="text" required placeholder="Nome da Atividade" id="activity-name" />
+            <input type="number" required placeholder="Nota da Atividade" id="activity-note" />
             <button type="submit">Adicionar +</button>
         </form>
         <table cellspacing="0">
@@ -30,20 +32,17 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Atividade 1</td>
-                    <td>7</td>
-                    <td><img src="./assets/aprovado.png" alt="Emoji festejando"></td>
-                </tr>
             </tbody>
             <tfoot>
                 <tr>
                     <td>Média Final</td>
-                    <td>7</td>
-                    <td><span class="resultado aprovado">Aprovado</span></td>
+                    <td id="final-media-value">---</td>
+                    <td id="final-media-result">---</td>
                 </tr>
             </tfoot>
         </table>
     </div>
+    <script src="./main.js"></script>
 </body>
+
 </html>
